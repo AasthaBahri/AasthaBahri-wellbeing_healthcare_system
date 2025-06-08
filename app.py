@@ -1,5 +1,5 @@
 import openai
-import request
+import requests
 from googleapiclient.discovery import build
 from geopy.geocoders import Nominatim
 from flask import Flask, render_template, request
